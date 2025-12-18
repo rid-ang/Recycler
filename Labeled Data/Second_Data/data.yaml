@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 5
+names: ['Cam', 'Kagit', 'Metal', 'Organik', 'Plastik']
+
+roboflow:
+  workspace: waste-detection-jmpdh
+  project: waste-detection-sm75h
+  version: 4
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/waste-detection-jmpdh/waste-detection-sm75h/dataset/4
